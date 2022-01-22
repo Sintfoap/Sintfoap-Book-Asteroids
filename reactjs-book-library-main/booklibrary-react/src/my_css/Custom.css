@@ -1,0 +1,63 @@
+.Nav_button {
+    margin-left: 5px;
+}
+
+.Add_button {
+    margin-bottom: 10px;
+}
+
+.edit-delete-button {
+    vertical-align: baseline;
+    margin: 2px auto auto auto;
+    display: block;
+    width: 31px;
+}
+
+input.delete-modal-error {
+    border: 1px solid #eb516d;
+}
+
+button.close_modal_button {
+    float: right;
+}
+
+div.select-search {
+    width: 100%;
+}
+
+.btn-outline-maroon {
+    background-color: white;
+    border-color: #671210;
+    color: #671210;
+}
+
+.btn-maroon {
+    background-color: #671210;
+    color: white;
+}
+
+.btn-outline-maroon:not(:disabled):not(.disabled).active,
+.btn-outline-maroon:hover {
+    background-color: #671210;
+    border-color: #671210;
+    color: #ffff;
+}
+
+#root {
+    margin-bottom: 15px;
+}
+
+.musiclibrarysongpeopledatagrid tbody{
+    max-height: 300px;
+    overflow: auto;
+}
+.musiclibrarysongpeopledatagrid table{
+    border-collapse: collapse;
+    overflow-x: scroll;
+}
+.musiclibrarysongpeopledatagrid tbody, .musiclibrarysongpeopledatagrid thead {
+    display: block;
+}
+.musiclibrarysongpeopledatagrid tr, .musiclibrarysongpeopledatagrid th {
+    display: grid;
+}
